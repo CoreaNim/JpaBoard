@@ -32,5 +32,4 @@ class BoardControllerTest extends Specification{
         1 * boardRepository.save({it.id == 1L});
     }
 
-
 }

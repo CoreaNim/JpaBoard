@@ -37,21 +37,21 @@ public class Application implements CommandLineRunner{
 
     @Override
     public void run(String... args) throws Exception {
-        userRepository.save(new User(1L,"김우승"));
-        userRepository.save(new User(2L, "김록영"));
-
-        System.out.println("----------------------------");
-        for ( User user : userRepository.findAll() ){
-            System.out.println(user);
-        }
-
-        boardRepository.save(new Board(1L,"너는누구냐?","나는나다"));
-        boardRepository.save(new Board(2L,"너는누구냐?","나는나다"));
-        boardRepository.save(new Board(3L,"너는누구냐?","나는나다"));
-
-        for ( Board board : boardRepository.findAll() ){
-            System.out.println(board);
-        }
+//        userRepository.save(new User(1L,"김우승"));
+//        userRepository.save(new User(2L, "김록영"));
+//
+//        System.out.println("----------------------------");
+//        for ( User user : userRepository.findAll() ){
+//            System.out.println(user);
+//        }
+//
+//        boardRepository.save(new Board(1L,"너는누구냐?","나는나다"));
+//        boardRepository.save(new Board(2L,"너는누구냐?","나는나다"));
+//        boardRepository.save(new Board(3L,"너는누구냐?","나는나다"));
+//
+//        for ( Board board : boardRepository.findAll() ){
+//            System.out.println(board);
+//        }
 
     }
 }
